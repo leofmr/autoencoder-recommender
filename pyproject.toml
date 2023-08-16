@@ -9,8 +9,9 @@ packages = [{include = "autoencoder_recommender"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-jupyter = "^1.0.0"
 
+[tool.poetry.group.analysis.dependencies]
+jupyter = "^1.0.0"
 
 [build-system]
 requires = ["poetry-core"]
