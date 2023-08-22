@@ -5,9 +5,16 @@
         "vscode": {
             "extensions": [
                 "ms-python.python",
+                "ms-python.black-formatter",
                 "ms-toolsai.jupyter",
                 "ms-azuretools.vscode-docker"
-            ]
+            ],
+            "settings": {
+                "[python]": {
+                    "editor.defaultFormatter": "ms-python.black-formatter",
+                    "editor.formatOnSave": true
+                }        
+            }
         }
     }
 }
