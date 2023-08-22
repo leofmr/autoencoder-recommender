@@ -6,14 +6,19 @@
             "extensions": [
                 "ms-python.python",
                 "ms-python.black-formatter",
+                "ms-python.isort",
                 "ms-toolsai.jupyter",
                 "ms-azuretools.vscode-docker"
             ],
             "settings": {
                 "[python]": {
                     "editor.defaultFormatter": "ms-python.black-formatter",
-                    "editor.formatOnSave": true
-                }        
+                    "editor.formatOnSave": true,
+                    "editor.codeActionsOnSave": {
+                        "source.organizeImports": true
+                    }
+                },
+                "isort.args": ["--profile", "black"]        
             }
         }
     }
