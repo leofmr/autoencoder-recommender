@@ -10,7 +10,9 @@
                 "ms-python.pylint",
                 "matangover.mypy",
                 "ms-toolsai.jupyter",
-                "ms-azuretools.vscode-docker"
+                "ms-azuretools.vscode-docker",
+                "dracula-theme.theme-dracula",
+                "PKief.material-icon-theme"
             ],
             "settings": {
                 "[python]": {
@@ -20,7 +22,9 @@
                         "source.organizeImports": true
                     }
                 },
-                "isort.args": ["--profile", "black"]        
+                "isort.args": ["--profile", "black"],
+                "workbench.colorTheme": "Dracula",
+                "workbench.iconTheme": "material-icon-theme"        
             }
         }
     }
