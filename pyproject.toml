@@ -9,6 +9,9 @@ packages = [{include = "autoencoder_recommender"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+tqdm = "^4.66.1"
+types-tqdm = "^4.66.0.1"
+types-requests = "^2.31.0.2"
 
 [tool.poetry.group.analysis.dependencies]
 jupyter = "^1.0.0"
