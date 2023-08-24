@@ -24,7 +24,8 @@
                 },
                 "isort.args": ["--profile", "black"],
                 "workbench.colorTheme": "Dracula",
-                "workbench.iconTheme": "material-icon-theme"        
+                "workbench.iconTheme": "material-icon-theme",
+                "jupyter.interactiveWindow.textEditor.executeSelection": true       
             }
         }
     }
